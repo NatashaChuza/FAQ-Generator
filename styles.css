@@ -1,0 +1,61 @@
+html,body,p{
+    padding:0;
+    margin:0;
+}
+.container{
+    display:flex;
+}
+.column{
+    flex-direction:column;
+}
+
+.border{
+    border: 0.1px solid silver;
+}
+.one{
+    flex: 1;
+}
+.center-align{
+    align-items: center;
+}
+.center-justify{
+    justify-content: center;
+}
+.evenly-justify{
+    justify-content: space-evenly;
+}
+.start-justify{
+    justify-content: flex-start;
+}
+.end-justify{
+    justify-content: flex-end;
+}
+.title{
+    flex: 0.1;
+    margin-top: 3vh;
+}
+.FAQ{
+    width: 70vw;
+    min-height: 7vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.invisible{
+    display:none;
+}
+.question{
+    min-height: 7vh;
+}
+.answer{
+    min-height: 7vh;
+    padding-left: 5vw;
+}
+.chevron{
+    width: 5vw;
+}
+.chevron:hover{
+    cursor: pointer;
+}
+.no-styles{
+   all:unset;
+}
